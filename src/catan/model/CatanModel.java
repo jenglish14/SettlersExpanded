@@ -8,12 +8,12 @@ import java.util.List;
  */
 public class CatanModel implements ICatanModel {
 
-  private GameBoard gameBoard;
+  private IGameBoard gameBoard;
   private List<Player> players;
   private int numPlayers;
 
   public CatanModel() {
-    this.gameBoard = new GameBoard();
+    this.gameBoard = new GameBoard.GameBoardBuilder().build();
     this.players = new ArrayList<>();
     for (Player p : Player.values()) {
       this.players.add(p);

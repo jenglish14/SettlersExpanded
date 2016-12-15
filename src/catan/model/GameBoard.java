@@ -14,4 +14,19 @@ public class GameBoard implements IGameBoard {
   public GameBoard() {
     this.hexPieces = new ArrayList<>();
   }
+
+
+  //utilize builder pattern to construct GameBoard with several optional arguments
+  public static final class GameBoardBuilder {
+
+    IGameBoard toBuild;
+
+    public GameBoardBuilder() {
+      this.toBuild = new GameBoard();
+    }
+
+    public IGameBoard build() {
+      return this.toBuild;
+    }
+  }
 }
