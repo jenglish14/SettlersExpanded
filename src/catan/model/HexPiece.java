@@ -27,6 +27,7 @@ public class HexPiece implements IHexPiece {
     for (int i = 0; i < NUM_EDGES; i++) {
       this.hexEdges.add(new HexEdge());
     }
+    //this.resourceType = HexResource.LOGS;
   }
 
   @Override
@@ -112,5 +113,31 @@ public class HexPiece implements IHexPiece {
   @Override
   public int getNumEdges() {
     return this.NUM_EDGES;
+  }
+
+  @Override
+  public void display() {
+    String resource;
+    if (this.resourceType == null) {
+      resource = " ";
+    }
+    else {
+      resource = this.resourceType.toString();
+    }
+    String tile = "  " + displayCorner(0) + "----" + displayCorner(1) + "\n";
+    tile = tile + " /      \\\n";
+    tile = tile + displayCorner(2) + "    " + resource + "   " + displayCorner(3) + "\n";
+    tile = tile + " \\      /\n";
+    tile = tile + "  " + displayCorner(4) + "----" + displayCorner(5) + "\n";
+    System.out.println(tile);
+  }
+
+  private String displayCorner(int corner) {
+    if (this.isCornerValid(corner)) {
+      return "O";
+    }
+    else {
+      return "X";
+    }
   }
 }

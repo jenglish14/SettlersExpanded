@@ -6,6 +6,7 @@ import catan.model.CatanModel;
 public class PlayCatan {
 
   public static void main(String[] args) {
-    //the code to run everything goes in here
+    CatanModel catanModel = new CatanModel();
+
   }
 }

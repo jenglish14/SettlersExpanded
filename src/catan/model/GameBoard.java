@@ -9,6 +9,7 @@ import java.util.List;
 public class GameBoard implements IGameBoard {
 
   private List<HexPiece> hexPieces;
+  private int numResourceTiles;
 
   //constructor
   public GameBoard() {
@@ -25,6 +26,7 @@ public class GameBoard implements IGameBoard {
       this.toBuild = new GameBoard();
     }
 
+    //default construction of standard board
     public IGameBoard build() {
       return this.toBuild;
     }

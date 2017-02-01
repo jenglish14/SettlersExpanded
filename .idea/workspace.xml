@@ -2,22 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0efcda4-a7a4-439e-ba33-2e2e130b7601" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/catan/model/GameBoardShape.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/catan/PlayCatanTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/catan/model/HexPieceTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Settlers/PlayCatan.class" afterPath="$PROJECT_DIR$/out/production/Settlers/PlayCatan.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Settlers/catan/model/CatanModel.class" afterPath="$PROJECT_DIR$/out/production/Settlers/catan/model/CatanModel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Settlers/catan/model/GameBoard$GameBoardBuilder.class" afterPath="$PROJECT_DIR$/out/production/Settlers/catan/model/GameBoard$GameBoardBuilder.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Settlers/catan/model/GameBoard.class" afterPath="$PROJECT_DIR$/out/production/Settlers/catan/model/GameBoard.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Settlers/catan/model/HexCorner.class" afterPath="$PROJECT_DIR$/out/production/Settlers/catan/model/HexCorner.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Settlers/catan/model/HexEdge.class" afterPath="$PROJECT_DIR$/out/production/Settlers/catan/model/HexEdge.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Settlers/catan/model/HexPiece.class" afterPath="$PROJECT_DIR$/out/production/Settlers/catan/model/HexPiece.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Settlers/catan/model/ICatanModel.class" afterPath="$PROJECT_DIR$/out/production/Settlers/catan/model/ICatanModel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Settlers/catan/model/HexResource.class" afterPath="$PROJECT_DIR$/out/production/Settlers/catan/model/HexResource.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Settlers/catan/model/IHexPiece.class" afterPath="$PROJECT_DIR$/out/production/Settlers/catan/model/IHexPiece.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/Settlers/catan/model/HexPieceTest.class" afterPath="$PROJECT_DIR$/out/test/Settlers/catan/model/HexPieceTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Settlers.iml" afterPath="$PROJECT_DIR$/Settlers.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/catan/model/CatanModel.java" afterPath="$PROJECT_DIR$/src/catan/model/CatanModel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PlayCatan.java" afterPath="$PROJECT_DIR$/src/PlayCatan.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/catan/model/GameBoard.java" afterPath="$PROJECT_DIR$/src/catan/model/GameBoard.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/catan/model/HexPiece.java" afterPath="$PROJECT_DIR$/src/catan/model/HexPiece.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/catan/model/HexResource.java" afterPath="$PROJECT_DIR$/src/catan/model/HexResource.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/catan/model/IHexPiece.java" afterPath="$PROJECT_DIR$/src/catan/model/IHexPiece.java" />
     </list>
     <ignored path="Settlers.iws" />
@@ -40,11 +36,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PlayCatan.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PlayCatan.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/PlayCatan.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+            <state relative-caret-position="153">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -53,10 +49,9 @@
       <file leaf-file-name="CatanModel.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/catan/model/CatanModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+            <state relative-caret-position="391">
+              <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="e#515#516#0" expanded="true" />
                 <element signature="e#553#554#0" expanded="true" />
               </folding>
@@ -77,16 +72,15 @@
       <file leaf-file-name="GameBoard.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/catan/model/GameBoard.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+            <state relative-caret-position="253">
+              <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#238#239#0" expanded="true" />
-                <element signature="e#282#283#0" expanded="true" />
-                <element signature="e#472#473#0" expanded="true" />
-                <element signature="e#516#517#0" expanded="true" />
-                <element signature="e#549#550#0" expanded="true" />
-                <element signature="e#582#583#0" expanded="true" />
+                <element signature="e#270#271#0" expanded="true" />
+                <element signature="e#314#315#0" expanded="true" />
+                <element signature="e#504#505#0" expanded="true" />
+                <element signature="e#548#549#0" expanded="true" />
+                <element signature="e#626#627#0" expanded="true" />
+                <element signature="e#659#660#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -95,8 +89,8 @@
       <file leaf-file-name="IHexPiece.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/catan/model/IHexPiece.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+            <state relative-caret-position="425">
+              <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -105,17 +99,21 @@
       <file leaf-file-name="HexPiece.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/catan/model/HexPiece.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1105">
-              <caret line="89" column="67" selection-start-line="89" selection-start-column="67" selection-end-line="89" selection-end-column="67" />
+            <state relative-caret-position="413">
+              <caret line="128" column="54" selection-start-line="128" selection-start-column="54" selection-end-line="128" selection-end-column="54" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2627#2628#0" expanded="true" />
-                <element signature="e#2661#2662#0" expanded="true" />
-                <element signature="e#2705#2706#0" expanded="true" />
-                <element signature="e#2738#2739#0" expanded="true" />
-                <element signature="e#2780#2781#0" expanded="true" />
-                <element signature="e#2811#2812#0" expanded="true" />
+                <element signature="method#displayCorner#0;class#HexPiece#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HexCorner.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/catan/model/HexCorner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -123,18 +121,18 @@
       <file leaf-file-name="HexResource.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/catan/model/HexResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+            <state relative-caret-position="510">
+              <caret line="30" column="59" selection-start-line="30" selection-start-column="59" selection-end-line="30" selection-end-column="59" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HexPieceTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HexPieceTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/catan/model/HexPieceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+            <state relative-caret-position="430">
+              <caret line="39" column="3" selection-start-line="39" selection-start-column="3" selection-end-line="39" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -167,19 +165,19 @@
         <option value="$PROJECT_DIR$/src/catan/model/HexCorners.java" />
         <option value="$PROJECT_DIR$/src/catan/model/HexEdges.java" />
         <option value="$PROJECT_DIR$/src/catan/model/Player.java" />
-        <option value="$PROJECT_DIR$/src/catan/model/HexCorner.java" />
         <option value="$PROJECT_DIR$/src/catan/model/HexEdge.java" />
-        <option value="$PROJECT_DIR$/src/PlayCatan.java" />
         <option value="$PROJECT_DIR$/src/catan/model/CatanModelBuilder.java" />
         <option value="$PROJECT_DIR$/src/catan/model/ICatanModel.java" />
-        <option value="$PROJECT_DIR$/src/catan/model/HexResource.java" />
-        <option value="$PROJECT_DIR$/src/catan/model/CatanModel.java" />
         <option value="$PROJECT_DIR$/src/catan/model/GameBoardShape.java" />
         <option value="$PROJECT_DIR$/src/catan/model/IGameBoard.java" />
+        <option value="$PROJECT_DIR$/src/catan/model/CatanModel.java" />
+        <option value="$PROJECT_DIR$/src/PlayCatan.java" />
         <option value="$PROJECT_DIR$/src/catan/model/GameBoard.java" />
-        <option value="$PROJECT_DIR$/test/catan/model/HexPieceTest.java" />
         <option value="$PROJECT_DIR$/src/catan/model/IHexPiece.java" />
+        <option value="$PROJECT_DIR$/src/catan/model/HexCorner.java" />
+        <option value="$PROJECT_DIR$/src/catan/model/HexResource.java" />
         <option value="$PROJECT_DIR$/src/catan/model/HexPiece.java" />
+        <option value="$PROJECT_DIR$/test/catan/model/HexPieceTest.java" />
       </list>
     </option>
   </component>
@@ -220,9 +218,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -337,6 +334,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -344,35 +342,9 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../GitHub/MusicEditor" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="JUnit.HexPieceTest.testIsCornerValid">
-    <configuration default="false" name="HexPieceTest.testHexPieceCornersAndEdgesEmptyAfterConstruction" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="catan.model.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Settlers" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="catan.model" />
-      <option name="MAIN_CLASS_NAME" value="catan.model.HexPieceTest" />
-      <option name="METHOD_NAME" value="testHexPieceCornersAndEdgesEmptyAfterConstruction" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.HexPieceTest.testCornersAndEdgesEmptyAfterConstruction">
     <configuration default="false" name="HexPieceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -475,6 +447,21 @@
       </option>
       <envs />
       <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="PlayCatan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="PlayCatan" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Settlers" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -1081,19 +1068,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.HexPieceTest.testHexPieceCornersAndEdgesEmptyAfterConstruction" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.HexPieceTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.HexPieceTest.testCornersAndEdgesEmptyAfterConstruction" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.HexPieceTest.testSetResourceType" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.HexPieceTest.testIsCornerValid" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.HexPieceTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.HexPieceTest.testCornersAndEdgesEmptyAfterConstruction" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.HexPieceTest.testSetResourceType" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.HexPieceTest.testIsCornerValid" />
+      <item index="4" class="java.lang.String" itemvalue="Application.PlayCatan" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.HexPieceTest.testIsCornerValid" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.HexPieceTest.testSetResourceType" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.HexPieceTest.testCornersAndEdgesEmptyAfterConstruction" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.HexPieceTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.HexPieceTest.testHexPieceCornersAndEdgesEmptyAfterConstruction" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.HexPieceTest.testCornersAndEdgesEmptyAfterConstruction" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.HexPieceTest" />
+        <item index="2" class="java.lang.String" itemvalue="Application.PlayCatan" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.HexPieceTest.testIsCornerValid" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.HexPieceTest.testSetResourceType" />
       </list>
     </recent_temporary>
   </component>
@@ -1110,37 +1097,47 @@
       <workItem from="1481776780015" duration="2964000" />
       <workItem from="1481779793493" duration="2228000" />
       <workItem from="1481819100696" duration="5781000" />
+      <workItem from="1482030127399" duration="599000" />
+      <workItem from="1484434878837" duration="117000" />
+      <workItem from="1484435019041" duration="599000" />
+      <workItem from="1485908077385" duration="3332000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HexPieceTest - 2016.12.15 at 12h 39m 11s.xml">
-      <configuration name="HexPieceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HexPieceTest - 2016.12.15 at 12h 41m 14s.xml">
-      <configuration name="HexPieceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HexPieceTest_testCornersAndEdgesEmptyAfterConstruction - 2016.12.15 at 12h 51m 28s.xml">
+    <history-entry file="HexPieceTest_testCornersAndEdgesEmptyAfterConstruction - 2017.01.31 at 19h 50m 40s.xml">
       <configuration name="HexPieceTest.testCornersAndEdgesEmptyAfterConstruction" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HexPieceTest_testHexPieceConstruction - 2016.12.15 at 12h 29m 25s.xml">
-      <configuration name="HexPieceTest.testHexPieceConstruction" configurationId="JUnit" />
+    <history-entry file="HexPieceTest_testCornersAndEdgesEmptyAfterConstruction - 2017.01.31 at 19h 54m 44s.xml">
+      <configuration name="HexPieceTest.testCornersAndEdgesEmptyAfterConstruction" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HexPieceTest_testHexPieceConstruction - 2016.12.15 at 12h 31m 20s.xml">
-      <configuration name="HexPieceTest.testHexPieceConstruction" configurationId="JUnit" />
+    <history-entry file="HexPieceTest_testCornersAndEdgesEmptyAfterConstruction - 2017.01.31 at 19h 56m 01s.xml">
+      <configuration name="HexPieceTest.testCornersAndEdgesEmptyAfterConstruction" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HexPieceTest_testHexPieceCornersAndEdgesEmptyAfterConstruction - 2016.12.15 at 12h 33m 18s.xml">
-      <configuration name="HexPieceTest.testHexPieceCornersAndEdgesEmptyAfterConstruction" configurationId="JUnit" />
+    <history-entry file="HexPieceTest_testCornersAndEdgesEmptyAfterConstruction - 2017.01.31 at 19h 57m 00s.xml">
+      <configuration name="HexPieceTest.testCornersAndEdgesEmptyAfterConstruction" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HexPieceTest_testIsCornerValid - 2016.12.15 at 12h 56m 30s.xml">
-      <configuration name="HexPieceTest.testIsCornerValid" configurationId="JUnit" />
+    <history-entry file="HexPieceTest_testCornersAndEdgesEmptyAfterConstruction - 2017.01.31 at 20h 00m 54s.xml">
+      <configuration name="HexPieceTest.testCornersAndEdgesEmptyAfterConstruction" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HexPieceTest_testSetResourceType - 2016.12.15 at 12h 51m 30s.xml">
-      <configuration name="HexPieceTest.testSetResourceType" configurationId="JUnit" />
+    <history-entry file="HexPieceTest_testCornersAndEdgesEmptyAfterConstruction - 2017.01.31 at 20h 01m 25s.xml">
+      <configuration name="HexPieceTest.testCornersAndEdgesEmptyAfterConstruction" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HexPieceTest_testCornersAndEdgesEmptyAfterConstruction - 2017.01.31 at 20h 02m 08s.xml">
+      <configuration name="HexPieceTest.testCornersAndEdgesEmptyAfterConstruction" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HexPieceTest_testCornersAndEdgesEmptyAfterConstruction - 2017.01.31 at 20h 02m 51s.xml">
+      <configuration name="HexPieceTest.testCornersAndEdgesEmptyAfterConstruction" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HexPieceTest_testCornersAndEdgesEmptyAfterConstruction - 2017.01.31 at 20h 07m 08s.xml">
+      <configuration name="HexPieceTest.testCornersAndEdgesEmptyAfterConstruction" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HexPieceTest_testCornersAndEdgesEmptyAfterConstruction - 2017.01.31 at 20h 08m 25s.xml">
+      <configuration name="HexPieceTest.testCornersAndEdgesEmptyAfterConstruction" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10973000" />
+    <option name="totallyTimeSpent" value="15620000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1148,23 +1145,23 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3266385" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15416667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39957717" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1195,6 +1192,143 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/catan/model/IGameBoard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/catan/model/GameBoard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+          <folding>
+            <element signature="e#270#271#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#504#505#0" expanded="true" />
+            <element signature="e#548#549#0" expanded="true" />
+            <element signature="e#626#627#0" expanded="true" />
+            <element signature="e#659#660#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/catan/model/IHexPiece.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/catan/model/HexPiece.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1479">
+          <caret line="89" column="67" selection-start-line="89" selection-start-column="67" selection-end-line="89" selection-end-column="67" />
+          <folding>
+            <element signature="method#displayCorner#0;class#HexPiece#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/catan/model/HexResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/catan/model/HexPieceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PlayCatan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/catan/model/CatanModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+          <folding>
+            <element signature="e#515#516#0" expanded="true" />
+            <element signature="e#553#554#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/catan/model/IGameBoard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/catan/model/GameBoard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+          <folding>
+            <element signature="e#270#271#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#504#505#0" expanded="true" />
+            <element signature="e#548#549#0" expanded="true" />
+            <element signature="e#626#627#0" expanded="true" />
+            <element signature="e#659#660#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/catan/model/IHexPiece.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/catan/model/HexPiece.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1479">
+          <caret line="89" column="67" selection-start-line="89" selection-start-column="67" selection-end-line="89" selection-end-column="67" />
+          <folding>
+            <element signature="method#displayCorner#0;class#HexPiece#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/catan/model/HexResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/catan/model/HexPieceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/PlayCatan.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -1207,7 +1341,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1216,7 +1349,6 @@
         <state relative-caret-position="374">
           <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="e#515#516#0" expanded="true" />
             <element signature="e#553#554#0" expanded="true" />
           </folding>
@@ -1228,13 +1360,12 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#238#239#0" expanded="true" />
-            <element signature="e#282#283#0" expanded="true" />
-            <element signature="e#472#473#0" expanded="true" />
-            <element signature="e#516#517#0" expanded="true" />
-            <element signature="e#549#550#0" expanded="true" />
-            <element signature="e#582#583#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#504#505#0" expanded="true" />
+            <element signature="e#548#549#0" expanded="true" />
+            <element signature="e#626#627#0" expanded="true" />
+            <element signature="e#659#660#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1252,13 +1383,7 @@
         <state relative-caret-position="323">
           <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2627#2628#0" expanded="true" />
-            <element signature="e#2661#2662#0" expanded="true" />
-            <element signature="e#2705#2706#0" expanded="true" />
-            <element signature="e#2738#2739#0" expanded="true" />
-            <element signature="e#2780#2781#0" expanded="true" />
-            <element signature="e#2811#2812#0" expanded="true" />
+            <element signature="method#displayCorner#0;class#HexPiece#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1284,10 +1409,10 @@
         <state relative-caret-position="221">
           <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
           <folding>
-            <element signature="e#198#199#0" expanded="true" />
-            <element signature="e#228#229#0" expanded="true" />
-            <element signature="e#261#262#0" expanded="true" />
-            <element signature="e#286#287#0" expanded="true" />
+            <element signature="e#198#199#0" expanded="false" />
+            <element signature="e#228#229#0" expanded="false" />
+            <element signature="e#261#262#0" expanded="false" />
+            <element signature="e#286#287#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1304,7 +1429,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1313,7 +1437,6 @@
         <state relative-caret-position="136">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="e#515#516#0" expanded="true" />
             <element signature="e#553#554#0" expanded="true" />
           </folding>
@@ -1325,13 +1448,12 @@
         <state relative-caret-position="238">
           <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#238#239#0" expanded="true" />
-            <element signature="e#282#283#0" expanded="true" />
-            <element signature="e#472#473#0" expanded="true" />
-            <element signature="e#516#517#0" expanded="true" />
-            <element signature="e#549#550#0" expanded="true" />
-            <element signature="e#582#583#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#504#505#0" expanded="true" />
+            <element signature="e#548#549#0" expanded="true" />
+            <element signature="e#626#627#0" expanded="true" />
+            <element signature="e#659#660#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1349,13 +1471,7 @@
         <state relative-caret-position="323">
           <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2627#2628#0" expanded="true" />
-            <element signature="e#2661#2662#0" expanded="true" />
-            <element signature="e#2705#2706#0" expanded="true" />
-            <element signature="e#2738#2739#0" expanded="true" />
-            <element signature="e#2780#2781#0" expanded="true" />
-            <element signature="e#2811#2812#0" expanded="true" />
+            <element signature="method#displayCorner#0;class#HexPiece#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1364,7 +1480,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1391,23 +1506,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/catan/model/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/catan/model/HexEdge.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
           <folding>
-            <element signature="e#198#199#0" expanded="true" />
-            <element signature="e#228#229#0" expanded="true" />
-            <element signature="e#261#262#0" expanded="true" />
-            <element signature="e#286#287#0" expanded="true" />
+            <element signature="e#198#199#0" expanded="false" />
+            <element signature="e#228#229#0" expanded="false" />
+            <element signature="e#261#262#0" expanded="false" />
+            <element signature="e#286#287#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1417,7 +1524,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1425,26 +1531,81 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/PlayCatanTest.java" />
+    <entry file="file://$PROJECT_DIR$/test/catan/PlayCatanTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PlayCatan.java">
+    <entry file="file://$PROJECT_DIR$/src/catan/model/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+        <state relative-caret-position="170">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/catan/model/CatanModel.java">
+    <entry file="file://$PROJECT_DIR$/test/catan/model/HexPieceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+        <state relative-caret-position="430">
+          <caret line="39" column="3" selection-start-line="39" selection-start-column="3" selection-end-line="39" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#515#516#0" expanded="true" />
-            <element signature="e#553#554#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/catan/model/HexResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="59" selection-start-line="30" selection-start-column="59" selection-end-line="30" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/catan/model/HexCorner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/catan/model/HexPiece.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="128" column="54" selection-start-line="128" selection-start-column="54" selection-end-line="128" selection-end-column="54" />
+          <folding>
+            <element signature="method#displayCorner#0;class#HexPiece#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/catan/model/IHexPiece.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/catan/model/GameBoard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+          <folding>
+            <element signature="e#270#271#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#504#505#0" expanded="true" />
+            <element signature="e#548#549#0" expanded="true" />
+            <element signature="e#626#627#0" expanded="true" />
+            <element signature="e#659#660#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1457,85 +1618,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/PlayCatanTest.java">
+    <entry file="file://$PROJECT_DIR$/src/catan/model/CatanModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/catan/PlayCatanTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/catan/model/HexCorner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/catan/model/GameBoard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+        <state relative-caret-position="391">
+          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#238#239#0" expanded="true" />
-            <element signature="e#282#283#0" expanded="true" />
-            <element signature="e#472#473#0" expanded="true" />
-            <element signature="e#516#517#0" expanded="true" />
-            <element signature="e#549#550#0" expanded="true" />
-            <element signature="e#582#583#0" expanded="true" />
+            <element signature="e#515#516#0" expanded="true" />
+            <element signature="e#553#554#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/catan/model/HexResource.java">
+    <entry file="file://$PROJECT_DIR$/src/PlayCatan.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        <state relative-caret-position="153">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/catan/model/IHexPiece.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/catan/model/HexPiece.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="89" column="67" selection-start-line="89" selection-start-column="67" selection-end-line="89" selection-end-column="67" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2627#2628#0" expanded="true" />
-            <element signature="e#2661#2662#0" expanded="true" />
-            <element signature="e#2705#2706#0" expanded="true" />
-            <element signature="e#2738#2739#0" expanded="true" />
-            <element signature="e#2780#2781#0" expanded="true" />
-            <element signature="e#2811#2812#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/catan/model/HexPieceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

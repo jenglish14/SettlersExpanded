@@ -23,4 +23,6 @@ public interface IHexPiece {
 
   int getNumEdges();
 
+  void display();
+
 }

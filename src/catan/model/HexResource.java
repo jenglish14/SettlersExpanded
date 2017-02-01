@@ -12,4 +12,24 @@ public enum HexResource {
   LOGS,
   DESERT;
 
+  @Override
+  public String toString() {
+    switch(this) {
+      case OCEAN:
+        return "O";
+      case WHEAT:
+        return "W";
+      case BRICK:
+        return "B";
+      case SHEEP:
+        return "S";
+      case LOGS:
+        return "L";
+      case DESERT:
+        return "D";
+      default:
+        throw new IllegalArgumentException("Impossible Enum");
+    }
+  }
+
 }
